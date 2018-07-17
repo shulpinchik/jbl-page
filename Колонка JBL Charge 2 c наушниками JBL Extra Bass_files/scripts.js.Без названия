@@ -16,7 +16,7 @@ $(document).ready(function() {
 		var query = $(this).serializeArray();
 		$.ajax({
 				type: 'POST',
-				url: '/send.php',
+				url: '/order',
 				data: query,
 				success: function(res){
 					var json;
